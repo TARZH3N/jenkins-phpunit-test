@@ -12,10 +12,10 @@ class GumballMachine {
 		$this->gumballs = $amount;
 	}
 	
-	public function turnWheel() {
-		$this->setGumballs($this->getGumballs()-1);
-	}
-	// 	public function turnWheel() {
-	// 	$this->setGumballs($this->getGumballs()-2);
+	// public function turnWheel() {
+	// 	$this->setGumballs($this->getGumballs()-1);
 	// }
+		public function turnWheel() {
+		$this->setGumballs($this->getGumballs()-2);
+	}
 }
